@@ -1,4 +1,5 @@
-import java.io.*;      
+import java.io.*
+
 abstract class Plan{  
          protected double rate;  
          abstract void getRate();  
@@ -20,14 +21,14 @@ class  DomesticPlan extends Plan{
     public void getRate(){   
         rate=7.50;  
    }   
-/end of CommercialPlan class.  
+//end of CommercialPlan class.  
 
 class  InstitutionalPlan extends Plan{  
    //@override  
     public void getRate(){   
         rate=5.50;  
    }   
-/end of InstitutionalPlan class.  
+//end of InstitutionalPlan class.  
 
 class GetPlanFactory{  
       
